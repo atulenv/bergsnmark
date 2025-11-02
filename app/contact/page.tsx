@@ -35,7 +35,7 @@ export default function ContactPage() {
                     href="mailto:hello@bergsmark.com"
                     className="text-2xl font-bold hover:text-primary transition-colors"
                   >
-                    hello@bergsmark.com
+                    bergsnco@gmail.com
                   </a>
                 </div>
 
