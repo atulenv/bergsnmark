@@ -6,9 +6,8 @@ import Image from "next/image"
 export default function AboutPage() {
   return (
     <main className="pt-20">
-      {/* About Hero */}
-      <section className="py-24 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-5xl mx-auto">
+<section className="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div>
           <FadeInSection>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Story</h1>
             <p className="text-lg sm:text-xl text-balance opacity-90">
@@ -19,8 +18,8 @@ export default function AboutPage() {
       </section>
 
       {/* Mission with image */}
-      <section className="py-24 px-6 pattern-subtle-grid">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 pattern-subtle-grid">
+        <div>
           <FadeInSection>
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div>
@@ -49,8 +48,8 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-24 px-6 bg-secondary">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">Our Core Values</h2>
           </FadeInSection>
@@ -93,8 +92,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 px-6 pattern-minimal-dots">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 pattern-minimal-dots">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">The Team</h2>
             <div className="space-y-12">
@@ -157,8 +156,8 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-24 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div>
           <FadeInSection>
             <div className="grid md:grid-cols-4 gap-8">
               {[
@@ -178,10 +177,8 @@ export default function AboutPage() {
       </section>
 
       {/* Team Members Section */}
-      <section className="py-24 px-6">
-        <div className="max-w-5xl mx-auto">
-          <FadeInSection>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">Meet the Team</h2>
+<section className="py-24 px-4 sm:px-6 lg:px-8">
+        <div>
           </FadeInSection>
 
           <div className="grid md:grid-cols-3 gap-12">
@@ -221,8 +218,8 @@ export default function AboutPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 px-6 bg-secondary">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">What Our Clients Say</h2>
           </FadeInSection>
@@ -290,8 +287,8 @@ export default function AboutPage() {
       </section>
 
       {/* Why Work With Us */}
-      <section className="py-24 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16 text-balance">Why Work With Us</h2>
           </FadeInSection>
@@ -331,8 +328,8 @@ export default function AboutPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div className="text-center">
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Let's build something remarkable.</h2>
             <p className="text-lg sm:text-xl mb-8 opacity-90">

@@ -106,8 +106,8 @@ export default function WorkPage() {
   return (
     <main className="pt-20">
       {/* Work Hero */}
-      <section className="py-24 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div>
           <FadeInSection>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Work</h1>
             <p className="text-lg sm:text-xl text-balance opacity-90">
@@ -119,8 +119,8 @@ export default function WorkPage() {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="py-24 px-6 pattern-subtle-grid">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 pattern-subtle-grid">
+        <div>
           <div className="space-y-16">
             {caseStudies.map((study, index) => (
               <FadeInSection key={study.id} delay={index * 0.1}>
@@ -187,8 +187,8 @@ export default function WorkPage() {
       </section>
 
       {/* Results Overview */}
-      <section className="py-24 px-6 bg-secondary">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-16 text-balance">Measurable Results Across Industries</h2>
           </FadeInSection>
@@ -211,8 +211,8 @@ export default function WorkPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-6">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
+        <div className="text-center">
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Ready for your success story?</h2>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8">

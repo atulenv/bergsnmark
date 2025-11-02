@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
     <main className="pt-20">
       {/* Contact Hero */}
-      <section className="py-24 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div>
           <FadeInSection>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Let's Talk</h1>
             <p className="text-lg sm:text-xl text-balance opacity-90">
@@ -18,8 +18,8 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form & Info */}
-      <section className="py-24 px-6 pattern-subtle-grid">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 pattern-subtle-grid">
+        <div>
           <div className="grid md:grid-cols-2 gap-16">
             {/* Form */}
             <FadeInSection>
@@ -81,9 +81,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Enhanced Contact Section with imagery */}
-      <section className="py-24 px-6 bg-secondary">
-        <div className="max-w-5xl mx-auto">
+<section className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-balance">Why Work With Bergs & Mark?</h2>
             <p className="text-xl text-muted-foreground mb-16 max-w-3xl">
@@ -150,8 +149,8 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 px-6 bg-secondary">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-16 text-balance">Frequently Asked Questions</h2>
           </FadeInSection>

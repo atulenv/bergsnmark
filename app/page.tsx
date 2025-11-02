@@ -12,8 +12,8 @@ export default function Home() {
       <NewHeroSection />
 
       {/* Client Logos Section */}
-      <section className="py-20 px-6 bg-secondary border-t border-b border-border">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary border-t border-b border-border">
+        <div>
           <FadeInSection>
             <h3 className="text-center text-sm font-semibold text-foreground/60 uppercase tracking-widest mb-12">
               Trusted by Leading Brands
@@ -23,9 +23,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What We Do Section */}
-      <section className="py-32 px-6 bg-background">
-        <div className="max-w-6xl mx-auto">
+<section className="py-32 px-4 sm:px-6 lg:px-8 bg-background">
+        <div>
           <FadeInSection>
             <div className="mb-20">
               <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
@@ -128,12 +127,9 @@ export default function Home() {
       </section>
 
       {/* Services Deep Dive Carousel */}
-      <section className="py-32 px-6 bg-secondary">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
-            <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
-              Our Services
-            </span>
             <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-20 leading-tight">Explore What We Offer</h2>
           </FadeInSection>
 
@@ -201,8 +197,8 @@ export default function Home() {
       </section>
 
       {/* The Market Reality */}
-      <section className="py-32 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div>
           <FadeInSection>
             <span className="inline-block px-4 py-2 bg-white/10 text-primary-foreground rounded-full text-sm font-semibold mb-6">
               The Reality
@@ -248,9 +244,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How We're Different */}
-      <section className="py-32 px-6 bg-background">
-        <div className="max-w-6xl mx-auto">
+<section className="py-32 px-4 sm:px-6 lg:px-8 bg-background">
+        <div>
           <FadeInSection>
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Our Advantage
@@ -305,8 +300,8 @@ export default function Home() {
       </section>
 
       {/* Case Studies */}
-      <section className="py-32 px-6 bg-secondary">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-secondary">
+        <div>
           <FadeInSection>
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Results
@@ -400,8 +395,8 @@ export default function Home() {
       </section>
 
       {/* Process Section */}
-      <section className="py-32 px-6 bg-background">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-background">
+        <div>
           <FadeInSection>
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Process
@@ -461,8 +456,8 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-32 px-6 bg-primary text-primary-foreground">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
+        <div className="text-center">
           <FadeInSection>
             <h2 className="text-4xl sm:text-5xl md:text-7xl font-black mb-8 leading-tight">Ready to Grow?</h2>
             <p className="text-lg sm:text-xl text-primary-foreground/80 mb-12 leading-relaxed">
