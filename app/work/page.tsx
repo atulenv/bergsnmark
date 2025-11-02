@@ -109,8 +109,8 @@ export default function WorkPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h1 className="text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Work</h1>
-            <p className="text-xl text-balance opacity-90">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Work</h1>
+            <p className="text-lg sm:text-xl text-balance opacity-90">
               Case studies from diverse industries showing how we positioned, built, and scaled ambitious brands to
               market leadership.
             </p>
@@ -142,7 +142,7 @@ export default function WorkPage() {
                       <div className="text-sm font-bold text-muted-foreground uppercase tracking-wide mb-2">
                         Case Study {String(study.id).padStart(2, "0")}
                       </div>
-                      <h2 className="text-4xl font-bold mb-2">{study.company}</h2>
+                      <h2 className="text-3xl sm:text-4xl font-bold mb-2">{study.company}</h2>
                       <p className="text-muted-foreground font-semibold">{study.industry}</p>
                     </div>
 
@@ -190,7 +190,7 @@ export default function WorkPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-16 text-balance">Measurable Results Across Industries</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-16 text-balance">Measurable Results Across Industries</h2>
           </FadeInSection>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -201,7 +201,7 @@ export default function WorkPage() {
             ].map((item, index) => (
               <ScaleInSection key={index} delay={index * 0.1}>
                 <div className="p-8 bg-background border border-border rounded-lg text-center">
-                  <div className="text-4xl font-bold mb-2">{item.stat}</div>
+                  <div className="text-3xl sm:text-4xl font-bold mb-2">{item.stat}</div>
                   <p className="text-muted-foreground">{item.desc}</p>
                 </div>
               </ScaleInSection>
@@ -214,8 +214,8 @@ export default function WorkPage() {
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Ready for your success story?</h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Ready for your success story?</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground mb-8">
               Let's discuss how we can apply this proven approach to your brand.
             </p>
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-10">

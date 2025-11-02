@@ -9,8 +9,8 @@ export default function ContactPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h1 className="text-6xl lg:text-7xl font-bold mb-6 text-balance">Let's Talk</h1>
-            <p className="text-xl text-balance opacity-90">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Let's Talk</h1>
+            <p className="text-lg sm:text-xl text-balance opacity-90">
               Share your challenges and growth goals. We'll respond within 24 hours with strategic recommendations.
             </p>
           </FadeInSection>
@@ -85,7 +85,7 @@ export default function ContactPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-8 text-balance">Why Work With Bergs & Mark?</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-balance">Why Work With Bergs & Mark?</h2>
             <p className="text-xl text-muted-foreground mb-16 max-w-3xl">
               Before you reach out, here's what sets us apart and what you can expect from our partnership.
             </p>
@@ -140,7 +140,7 @@ export default function ContactPage() {
             ].map((badge, idx) => (
               <FadeInSection key={idx} delay={idx * 0.1}>
                 <div className="bg-card border border-border/50 p-8 rounded-lg">
-                  <div className="text-4xl font-black text-accent mb-2">{badge.stat}</div>
+                  <div className="text-3xl sm:text-4xl font-black text-accent mb-2">{badge.stat}</div>
                   <p className="text-sm text-foreground/70 font-semibold">{badge.label}</p>
                 </div>
               </FadeInSection>
@@ -153,7 +153,7 @@ export default function ContactPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-16 text-balance">Frequently Asked Questions</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-16 text-balance">Frequently Asked Questions</h2>
           </FadeInSection>
 
           <div className="space-y-8">

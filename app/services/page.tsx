@@ -109,8 +109,8 @@ export default function ServicesPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h1 className="text-6xl lg:text-7xl font-bold mb-6 text-balance">Services Built for Growth</h1>
-            <p className="text-xl text-balance opacity-90">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Services Built for Growth</h1>
+            <p className="text-lg sm:text-xl text-balance opacity-90">
               We offer integrated services that work together to build, brand, and grow your business. Websites,
               Instagram growth, paid ads, video production, design, and complete campaigns.
             </p>
@@ -123,7 +123,7 @@ export default function ServicesPage() {
         <div className="max-w-5xl mx-auto">
           {services.map((service, index) => (
             <FadeInSection key={service.id} delay={index * 0.1}>
-              <div id={service.id} className={`${service.color} rounded-lg p-12 mb-12 border border-border`}>
+              <div id={service.id} className={`${service.color} rounded-lg p-6 md:p-8 lg:p-12 mb-12 border border-border`}>
                 <div className="grid md:grid-cols-2 gap-12 items-start">
                   <div>
                     <div className="relative h-64 rounded-lg overflow-hidden mb-8">
@@ -134,7 +134,7 @@ export default function ServicesPage() {
                         className="object-cover hover:scale-105 transition-transform duration-500"
                       />
                     </div>
-                    <h2 className="text-4xl font-bold mb-6">{service.title}</h2>
+                    <h2 className="text-3xl sm:text-4xl font-bold mb-6">{service.title}</h2>
                     <p className="text-lg text-muted-foreground mb-8">{service.description}</p>
                     <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
                       <Link href="/contact">Get Started</Link>
@@ -164,7 +164,7 @@ export default function ServicesPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-8 text-balance">Pricing Philosophy</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-balance">Pricing Philosophy</h2>
             <div className="space-y-6 text-lg">
               <p>
                 We don't compete on price. We compete on value. Our fees reflect the caliber of our team, the depth of
@@ -184,7 +184,7 @@ export default function ServicesPage() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-16 text-balance">How We Work</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-16 text-balance">How We Work</h2>
           </FadeInSection>
 
           <div className="space-y-12">
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               <FadeInSection key={index} delay={index * 0.1}>
                 <div className="grid md:grid-cols-2 gap-8 items-center pb-12 border-b border-border">
                   <div>
-                    <div className="text-5xl font-bold text-muted-foreground mb-4">{item.step}</div>
+                    <div className="text-4xl sm:text-5xl font-bold text-muted-foreground mb-4">{item.step}</div>
                     <h3 className="text-3xl font-bold mb-4">{item.title}</h3>
                     <p className="text-lg text-muted-foreground">{item.desc}</p>
                   </div>
@@ -229,8 +229,8 @@ export default function ServicesPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Ready to transform your brand?</h2>
-            <p className="text-xl mb-8 opacity-90">Let's discuss which services align with your goals and timeline.</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Ready to transform your brand?</h2>
+            <p className="text-lg sm:text-xl mb-8 opacity-90">Let's discuss which services align with your goals and timeline.</p>
             <Button asChild size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-10">
               <Link href="/contact">Schedule a Call</Link>
             </Button>

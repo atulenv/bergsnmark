@@ -10,8 +10,8 @@ export default function AboutPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h1 className="text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Story</h1>
-            <p className="text-xl text-balance opacity-90">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Story</h1>
+            <p className="text-lg sm:text-xl text-balance opacity-90">
               Built by digital marketing experts obsessed with real growth and measurable results.
             </p>
           </FadeInSection>
@@ -24,7 +24,7 @@ export default function AboutPage() {
           <FadeInSection>
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div>
-                <h2 className="text-5xl font-bold mb-8">Our Mission</h2>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">Our Mission</h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   We exist to help ambitious brands build unstoppable online presence. Not to add clutter to the market,
                   but to create clarity, strategic positioning, and sustainable growth through integrated digital
@@ -52,7 +52,7 @@ export default function AboutPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl font-bold mb-16">Our Core Values</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">Our Core Values</h2>
           </FadeInSection>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -96,7 +96,7 @@ export default function AboutPage() {
       <section className="py-24 px-6 pattern-minimal-dots">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl font-bold mb-16">The Team</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">The Team</h2>
             <div className="space-y-12">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -168,7 +168,7 @@ export default function AboutPage() {
                 { stat: "98%", label: "Client Retention Rate" },
               ].map((item, index) => (
                 <div key={index} className="text-center">
-                  <div className="text-5xl font-bold mb-2">{item.stat}</div>
+                  <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">{item.stat}</div>
                   <div className="text-sm opacity-90">{item.label}</div>
                 </div>
               ))}
@@ -181,7 +181,7 @@ export default function AboutPage() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl font-bold mb-16">Meet the Team</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">Meet the Team</h2>
           </FadeInSection>
 
           <div className="grid md:grid-cols-3 gap-12">
@@ -224,7 +224,7 @@ export default function AboutPage() {
       <section className="py-24 px-6 bg-secondary">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl font-bold mb-16">What Our Clients Say</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16">What Our Clients Say</h2>
           </FadeInSection>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -293,7 +293,7 @@ export default function AboutPage() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <FadeInSection>
-            <h2 className="text-5xl font-bold mb-16 text-balance">Why Work With Us</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-16 text-balance">Why Work With Us</h2>
           </FadeInSection>
 
           <div className="space-y-8">
@@ -334,8 +334,8 @@ export default function AboutPage() {
       <section className="py-24 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
-            <h2 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Let's build something remarkable.</h2>
-            <p className="text-xl mb-8 opacity-90">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">Let's build something remarkable.</h2>
+            <p className="text-lg sm:text-xl mb-8 opacity-90">
               If our approach resonates, let's talk about what we can do together.
             </p>
             <Button asChild size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-10">

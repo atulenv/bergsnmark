@@ -31,10 +31,10 @@ export default function Home() {
               <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
                 What We Do
               </span>
-              <h2 className="text-7xl lg:text-8xl font-black text-foreground mb-8 leading-tight">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-foreground mb-8 leading-tight">
                 Complete Digital Growth Solutions
               </h2>
-              <p className="text-2xl text-foreground/70 max-w-3xl leading-relaxed">
+              <p className="text-lg sm:text-xl text-foreground/70 max-w-3xl leading-relaxed">
                 From stunning websites to Instagram growth, paid ads to full-scale campaigns. We're your complete
                 digital marketing partner.
               </p>
@@ -101,7 +101,7 @@ export default function Home() {
               },
             ].map((service, index) => (
               <FadeInSection key={index} delay={index * 0.1}>
-                <div className="bg-card border border-border/50 p-12 rounded-lg hover:border-accent/50 transition-colors group">
+                <div className="bg-card border border-border/50 p-6 md:p-8 lg:p-12 rounded-lg hover:border-accent/50 transition-colors group">
                   <div className="relative h-48 mb-6 rounded-lg overflow-hidden">
                     <Image
                       src={service.image || "/placeholder.svg"}
@@ -134,7 +134,7 @@ export default function Home() {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Our Services
             </span>
-            <h2 className="text-7xl font-black text-foreground mb-20 leading-tight">Explore What We Offer</h2>
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-20 leading-tight">Explore What We Offer</h2>
           </FadeInSection>
 
           <ServiceCarousel
@@ -207,7 +207,7 @@ export default function Home() {
             <span className="inline-block px-4 py-2 bg-white/10 text-primary-foreground rounded-full text-sm font-semibold mb-6">
               The Reality
             </span>
-            <h2 className="text-7xl font-black mb-12 leading-tight">Why Most Businesses Fail Online</h2>
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black mb-12 leading-tight">Why Most Businesses Fail Online</h2>
 
             <div className="space-y-10 text-lg leading-relaxed">
               <div>
@@ -255,7 +255,7 @@ export default function Home() {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Our Advantage
             </span>
-            <h2 className="text-7xl font-black text-foreground mb-20 leading-tight">
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-20 leading-tight">
               Why Bergs & Mark Delivers Results
             </h2>
           </FadeInSection>
@@ -311,7 +311,7 @@ export default function Home() {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Results
             </span>
-            <h2 className="text-7xl font-black text-foreground mb-20 leading-tight">Client Success Stories</h2>
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-20 leading-tight">Client Success Stories</h2>
           </FadeInSection>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -362,7 +362,7 @@ export default function Home() {
                       className="object-cover hover:scale-105 transition-transform duration-500"
                     />
                   </div>
-                  <div className="p-8">
+                  <div className="p-4 md:p-6 lg:p-8">
                     <div className="mb-4">
                       <p className="text-xs font-semibold text-accent uppercase tracking-widest">{study.industry}</p>
                       <h3 className="text-2xl font-bold text-foreground mt-2">{study.name}</h3>
@@ -406,7 +406,7 @@ export default function Home() {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-6">
               Process
             </span>
-            <h2 className="text-7xl font-black text-foreground mb-20 leading-tight">How We Work Together</h2>
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-20 leading-tight">How We Work Together</h2>
           </FadeInSection>
 
           <div className="space-y-16">
@@ -445,13 +445,13 @@ export default function Home() {
               <FadeInSection key={index} delay={index * 0.08}>
                 <div className="flex gap-8 md:gap-12 items-start">
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 rounded-full bg-accent/10 flex items-center justify-center border-2 border-accent">
-                      <span className="text-3xl font-black text-accent">{item.step}</span>
+                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-accent/10 flex items-center justify-center border-2 border-accent">
+                      <span className="text-2xl md:text-3xl font-black text-accent">{item.step}</span>
                     </div>
                   </div>
                   <div className="flex-grow pt-2">
-                    <h3 className="text-3xl font-bold text-foreground mb-4">{item.title}</h3>
-                    <p className="text-lg text-foreground/70 leading-relaxed">{item.description}</p>
+                    <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">{item.title}</h3>
+                    <p className="text-base md:text-lg text-foreground/70 leading-relaxed">{item.description}</p>
                   </div>
                 </div>
               </FadeInSection>
@@ -464,8 +464,8 @@ export default function Home() {
       <section className="py-32 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <FadeInSection>
-            <h2 className="text-7xl font-black mb-8 leading-tight">Ready to Grow?</h2>
-            <p className="text-2xl text-primary-foreground/80 mb-12 leading-relaxed">
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black mb-8 leading-tight">Ready to Grow?</h2>
+            <p className="text-lg sm:text-xl text-primary-foreground/80 mb-12 leading-relaxed">
               Let's talk about your business, your goals, and how we can help you build an unstoppable online presence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

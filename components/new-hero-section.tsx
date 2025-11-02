@@ -29,7 +29,7 @@ export default function NewHeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
-              className="text-6xl md:text-7xl lg:text-8xl font-black text-foreground mb-8 leading-tight"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-foreground mb-8 leading-tight"
             >
               We Build Digital Presence That Converts
             </motion.h1>
