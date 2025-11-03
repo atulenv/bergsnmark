@@ -101,9 +101,8 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-3xl font-bold mb-4">Expert Leadership</h3>
                   <p className="text-lg text-muted-foreground mb-4">
-                    Our founding team brings 60+ years of combined experience in digital marketing, brand strategy, and
-                    business growth. We've worked at top agencies and on the client side. We've built brands from zero
-                    and scaled companies to 8-figures.
+                    Our founding team brings 2+ years of combined experience in digital marketing, brand strategy, and
+                    business growth.
                   </p>
                   <p className="text-lg text-muted-foreground">
                     We've made every mistake so you don't have to. We know what works and what doesn't in digital
@@ -129,17 +128,6 @@ export default function AboutPage() {
                     className="object-cover"
                   />
                 </div>
-                <div className="order-1 md:order-2">
-                  <h3 className="text-3xl font-bold mb-4">Creative Execution</h3>
-                  <p className="text-lg text-muted-foreground mb-4">
-                    Award-winning designers, developers, and content creators make up our team. Everyone here thinks
-                    strategically and executes at a high level. We don't have order-takers—we have problem solvers.
-                  </p>
-                  <p className="text-lg text-muted-foreground">
-                    From concept to launch and beyond, our team delivers excellence across websites, social content,
-                    video production, ads, and design.
-                  </p>
-                </div>
               </div>
 
               <div>
@@ -161,10 +149,10 @@ export default function AboutPage() {
           <FadeInSection>
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { stat: "50+", label: "Brands Transformed" },
-                { stat: "15+", label: "Years Combined Experience" },
-                { stat: "$20M+", label: "Revenue Generated for Clients" },
-                { stat: "98%", label: "Client Retention Rate" },
+                { stat: "10+", label: "Brands Transformed" },
+                { stat: "2+", label: "Years Combined Experience" },
+                { stat: "$7K+", label: "Revenue Generated for Clients" },
+                { stat: "65%", label: "Client Retention Rate" },
               ].map((item, index) => (
                 <div key={index} className="text-center">
                   <div className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">{item.stat}</div>
@@ -186,23 +174,12 @@ export default function AboutPage() {
           <div className="grid gap-10 md:grid-cols-3">
             {[
               {
-                name: "Sarah Berg",
+                name: "Atul Sahu",
                 title: "Founder & Strategy Director",
-                bio: "15+ years in digital marketing. Built brands from $0 to $50M+. Former CMO at fast-growth SaaS.",
+                bio: "2+ years in digital marketing And Search Engine Optimization.",
                 image: "/professional-headshot-woman-ceo-founder.jpg",
               },
-              {
-                name: "Mark Chen",
-                title: "Founder & Creative Director",
-                bio: "Award-winning designer. Featured in design publications. Obsessed with user experience and brand systems.",
-                image: "/professional-headshot-man-designer-creative-direct.jpg",
-              },
-              {
-                name: "Alex Rodriguez",
-                title: "Growth & Performance Lead",
-                bio: "Digital advertising expert. Managed $10M+ in ad spend. Specializes in conversion optimization.",
-                image: "/professional-headshot-man-marketing-growth.jpg",
-              },
+            
             ].map((member, index) => (
               <FadeInSection key={index} delay={index * 0.1}>
                 <div className="text-center">
