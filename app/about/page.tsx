@@ -177,7 +177,7 @@ export default function AboutPage() {
                 name: "Atul Sahu",
                 title: "Founder & Strategy Director",
                 bio: "2+ years in digital marketing And Search Engine Optimization.",
-                image: "/professional-headshot-woman-ceo-founder.jpg",
+                image: "",
               },
             
             ].map((member, index) => (
