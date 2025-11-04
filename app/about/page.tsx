@@ -118,18 +118,6 @@ export default function AboutPage() {
                   />
                 </div>
               </div>
-
-              <div className="grid gap-10 md:grid-cols-2 items-center">
-                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden order-2 md:order-1">
-                  <Image
-                    src="/social-media-content-creation-team.jpg"
-                    alt="Content creation team"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-
               <div>
                 <h3 className="text-3xl font-bold mb-4">Our Culture</h3>
                 <p className="text-lg text-muted-foreground">
