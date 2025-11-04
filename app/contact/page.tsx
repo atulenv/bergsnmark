@@ -95,11 +95,11 @@ export default function ContactPage() {
               {[
                 {
                   title: "Expert Team",
-                  desc: "60+ years combined experience in digital marketing, brand strategy, and sustainable business growth.",
+                  desc: "2+ years combined experience in digital marketing, brand strategy, and sustainable business growth.",
                 },
                 {
                   title: "Proven Results",
-                  desc: "50+ successful brands transformed, $20M+ revenue generated, 98% client retention rate.",
+                  desc: "10+ successful brands transformed, $20M+ revenue generated, 98% client retention rate.",
                 },
                 {
                   title: "Transparent Process",
@@ -159,11 +159,11 @@ export default function ContactPage() {
             {[
               {
                 q: "What is your typical project timeline?",
-                a: "Most projects range from 3-6 months depending on scope. Initial strategy phases typically take 4-8 weeks, with execution and optimization following.",
+                a: "Most projects range from 1-2 months depending on scope. Initial strategy phases typically take 2-4 weeks, with execution and optimization following.",
               },
               {
                 q: "Do you work with startups or only established companies?",
-                a: "We work with ambitious brands at any stage. We've worked with seed-stage startups and fortune 500 companies. What matters is commitment to growth.",
+                a: "We work with ambitious brands at any stage. What matters is commitment to growth.",
               },
               {
                 q: "How do you measure success?",
