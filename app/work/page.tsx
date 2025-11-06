@@ -195,9 +195,9 @@ export default function WorkPage() {
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { stat: "6 Industries", desc: "Proven expertise across diverse sectors" },
-              { stat: "300%+ Avg Growth", desc: "Average increase in key business metrics" },
-              { stat: "98% Retention", desc: "Clients continue working with us long-term" },
+              { stat: "3 Industries", desc: "Proven expertise across diverse sectors" },
+              { stat: "175%+ Avg Growth", desc: "Average increase in key business metrics" },
+              { stat: "65% Retention", desc: "Clients continue working with us long-term" },
             ].map((item, index) => (
               <ScaleInSection key={index} delay={index * 0.1}>
                 <div className="p-8 bg-background border border-border rounded-lg text-center">
