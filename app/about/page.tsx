@@ -2,6 +2,14 @@ import { FadeInSection } from "@/components/motion-wrapper"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Bergs & Mark | Digital Marketing Agency & IT Solutions",
+  description:
+    "Learn about Bergs & Mark, a leading digital marketing agency and IT solutions firm. Discover our story, mission, and the values that drive us to deliver exceptional results for our clients. We are a team of experts dedicated to helping businesses grow.",
+  keywords: ["about us", "digital marketing agency", "it solutions firm", "company story", "mission and values", "expert team"],
+}
 
 export default function AboutPage() {
   return (
@@ -11,7 +19,7 @@ export default function AboutPage() {
           <FadeInSection>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Our Story</h1>
             <p className="text-lg sm:text-xl text-balance opacity-90">
-              Built by digital marketing experts obsessed with real growth and measurable results.
+              Bergs & Mark was founded by a team of passionate digital marketing experts and IT professionals who were obsessed with delivering real growth and measurable results. We saw a gap in the market for a truly integrated service provider that could combine cutting-edge marketing strategies with robust IT solutions. Our journey began with a simple mission: to help businesses of all sizes build an unstoppable online presence and achieve their most ambitious goals.
             </p>
           </FadeInSection>
         </div>
@@ -25,13 +33,10 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-balance">Our Mission</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  We exist to help ambitious brands build unstoppable online presence. Not to add clutter to the market,
-                  but to create clarity, strategic positioning, and sustainable growth through integrated digital
-                  solutions.
+                  Our mission is to empower ambitious brands to build an unstoppable online presence. We don't just add to the market clutter; we bring clarity, strategic positioning, and sustainable growth through our integrated digital marketing and IT solutions. We are committed to being the best service provider for our clients, delivering not just services, but tangible results.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  Every brand we work with becomes stronger. Every strategy we develop drives measurable results. Every
-                  campaign we execute demonstrates that integrated, expert marketing delivers exponential growth.
+                  Every brand we partner with becomes a leader in its industry. Every strategy we develop is designed to drive measurable results and a high return on investment. Every campaign we execute demonstrates the power of integrated, expert marketing and IT solutions, leading to exponential growth and long-term success.
                 </p>
               </div>
               <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden">
@@ -58,27 +63,27 @@ export default function AboutPage() {
             {[
               {
                 title: "Strategy Over Aesthetics",
-                desc: "Beautiful design without strategy is decoration. We start with positioning, competitive advantage, and clear goals. Design amplifies strategy.",
+                desc: "Beautiful design without a solid strategy is just decoration. As a leading IT firm, we start with your business goals, competitive analysis, and clear objectives. Our designs amplify your strategy and drive results.",
               },
               {
                 title: "Measurable Results",
-                desc: "We track what matters. Revenue, conversions, leads, ROI. Vanity metrics are ignored. Every decision is data-driven.",
+                desc: "We are a results-driven agency. We track the metrics that matter most to your business: revenue, conversions, leads, and ROI. We ignore vanity metrics and focus on data-driven decisions.",
               },
               {
                 title: "Partnership Mindset",
-                desc: "You're not a client number. We become invested in your success and remain committed to your growth long-term.",
+                desc: "You're not just another client to us. We become a true partner in your success, deeply invested in your growth and long-term goals. We are the service provider you can trust.",
               },
               {
                 title: "Directness & Clarity",
-                desc: "We say what we think. No corporate speak, no sugar coating. Just honest feedback and clear strategic recommendations.",
+                desc: "We believe in honest and transparent communication. No corporate jargon or sugar-coating. We provide clear, strategic recommendations to help you succeed.",
               },
               {
                 title: "Continuous Optimization",
-                desc: "First version is never final. We test, learn, analyze data, and refine continuously for exponential improvement.",
+                desc: "The first version is never the final one. As a top digital marketing agency, we continuously test, learn, analyze data, and refine our strategies for exponential improvement and sustained growth.",
               },
               {
                 title: "Quality Without Compromise",
-                desc: "We never ship work we're not proud of. Deadlines matter, but excellence and integrity matter more.",
+                desc: "We never deliver work that we're not proud of. While deadlines are important, excellence and integrity are paramount. We are committed to delivering the highest quality IT solutions and marketing campaigns.",
               },
             ].map((value, index) => (
               <FadeInSection key={index} delay={index * 0.1}>
@@ -99,14 +104,12 @@ export default function AboutPage() {
             <div className="space-y-12">
               <div className="grid gap-10 md:grid-cols-2 items-center">
                 <div>
-                  <h3 className="text-3xl font-bold mb-4">Expert Leadership</h3>
+                  <h3 className="text-3xl font-bold mb-4">Expert Leadership from a Top IT Firm</h3>
                   <p className="text-lg text-muted-foreground mb-4">
-                    Our founding team brings 2+ years of combined experience in digital marketing, brand strategy, and
-                    business growth.
+                    Our founding team brings over 2 years of combined experience in digital marketing, brand strategy, and IT solutions. As a leading agency, we have a deep understanding of the digital landscape and a proven track record of success.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    We've made every mistake so you don't have to. We know what works and what doesn't in digital
-                    marketing.
+                    We've navigated the complexities of digital marketing and IT so you don't have to. We know what works, what doesn't, and how to create a customized strategy that will deliver the results you need.
                   </p>
                 </div>
                 <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden">
@@ -119,11 +122,9 @@ export default function AboutPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-4">Our Culture</h3>
+                <h3 className="text-3xl font-bold mb-4">Our Culture of Excellence</h3>
                 <p className="text-lg text-muted-foreground">
-                  We're collaborative, not hierarchical. Everyone contributes to strategy. Everyone reviews work. Ideas
-                  win based on merit, not title. We work focused, we stay hungry for results, and we celebrate success
-                  together. We obsess over details because details compound into remarkable outcomes.
+                  We foster a collaborative, not hierarchical, environment. Everyone on our team contributes to strategy and reviews work. The best ideas win, regardless of title. We are a team of passionate professionals who are hungry for results and celebrate success together. We obsess over the details because we know that they compound into remarkable outcomes for our clients. This is what makes us a top-tier service provider.
                 </p>
               </div>
             </div>
@@ -269,24 +270,24 @@ export default function AboutPage() {
           <div className="space-y-8">
             {[
               {
-                q: "Deep Strategic Thinking",
-                a: "We don't start with design. We start with strategy. We understand your market, competitors, and audience. Strategy guides every decision.",
+                q: "Deep Strategic Thinking from a Leading Agency",
+                a: "We don't start with design. We start with strategy. As a top digital marketing agency, we take the time to understand your market, competitors, and audience. Strategy guides every decision we make.",
               },
               {
-                q: "End-to-End Execution",
-                a: "From positioning through launch and optimization, we own the entire process. You get one partner, not 5 different agencies.",
+                q: "End-to-End Execution from a Single IT Firm",
+                a: "From initial positioning to campaign launch and optimization, we handle the entire process. You get a single, dedicated partner, not a collection of disconnected agencies. We are the IT solution firm that can do it all.",
               },
               {
-                q: "Real Results",
-                a: "We're measured by business outcomes, not awards or accolades. Revenue, conversions, growth—these are our metrics.",
+                q: "Real, Measurable Results",
+                a: "We are measured by the business outcomes we deliver, not by awards or accolades. Revenue, conversions, and growth are our key metrics. We are the service provider that delivers real results.",
               },
               {
                 q: "Transparency & Communication",
-                a: "Weekly updates. Regular strategy sessions. Direct access to leadership. You always know what's happening and why.",
+                a: "We believe in open and honest communication. You'll receive weekly updates, participate in regular strategy sessions, and have direct access to our leadership team. You'll always know what's happening and why.",
               },
               {
-                q: "Proven Track Record",
-                a: "We have case studies from SaaS to e-commerce to professional services. Diverse industries, consistent results.",
+                q: "Proven Track Record Across Industries",
+                a: "Our case studies speak for themselves. We have a proven track record of success with clients in a wide range of industries, from SaaS and e-commerce to professional services. We deliver consistent results, no matter the industry.",
               },
             ].map((item, index) => (
               <FadeInSection key={index} delay={index * 0.1}>

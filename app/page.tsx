@@ -11,6 +11,21 @@ export default function Home() {
     <main>
       <NewHeroSection />
 
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+        <div className="max-w-6xl mx-auto">
+          <FadeInSection>
+            <div className="text-center">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-foreground mb-8 leading-tight">
+                Your Partner in Digital Excellence
+              </h2>
+              <p className="text-lg sm:text-xl text-foreground/70 max-w-4xl mx-auto leading-relaxed">
+                Bergs & Mark is your one-stop solution for all your digital needs. As a leading digital marketing agency and IT solutions firm, we provide a comprehensive suite of services designed to elevate your brand and accelerate your growth. Whether you're looking for a cutting-edge website, a results-driven marketing campaign, or robust IT infrastructure, our team of experts is here to help. We are more than just a service provider; we are your strategic partner in navigating the digital landscape.
+              </p>
+            </div>
+          </FadeInSection>
+        </div>
+      </section>
+
       {/* Client Logos Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary border-t border-b border-border">
         <div className="max-w-6xl mx-auto">

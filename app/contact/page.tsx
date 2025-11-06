@@ -1,6 +1,14 @@
 import ContactForm from "@/components/contact-form"
 import { FadeInSection } from "@/components/motion-wrapper"
 import Image from "next/image"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Contact Bergs & Mark | Digital Marketing Agency & IT Solutions",
+  description:
+    "Contact Bergs & Mark, a leading digital marketing agency and IT solutions firm. Reach out to us for a free consultation and let us help you grow your business. We offer a wide range of services, including SEO, PPC, social media marketing, and more.",
+  keywords: ["contact us", "digital marketing agency", "it solutions firm", "free consultation", "get in touch", "contact information"],
+}
 
 export default function ContactPage() {
   return (
@@ -11,7 +19,7 @@ export default function ContactPage() {
           <FadeInSection>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">Let's Talk</h1>
             <p className="text-lg sm:text-xl text-balance opacity-90">
-              Share your challenges and growth goals. We'll respond within 24 hours with strategic recommendations.
+              Ready to grow your business? Share your challenges and growth goals with us. Our team of experts will get back to you within 24 hours with strategic recommendations and a plan to help you succeed. As a top digital marketing agency and IT solution firm, we are here to help you with all your needs.
             </p>
           </FadeInSection>
         </div>
@@ -94,20 +102,20 @@ export default function ContactPage() {
             <div className="space-y-6">
               {[
                 {
-                  title: "Expert Team",
-                  desc: "2+ years combined experience in digital marketing, brand strategy, and sustainable business growth.",
+                  title: "Expert Team of a Premier Agency",
+                  desc: "With over 2 years of combined experience, our team at this digital marketing agency excels in brand strategy and sustainable business growth. We are the service provider you can trust.",
                 },
                 {
-                  title: "Proven Results",
-                  desc: "10+ successful brands transformed, $20M+ revenue generated, 98% client retention rate.",
+                  title: "Proven Results from a Top IT Firm",
+                  desc: "We have a track record of transforming over 10 brands, generating more than $20 million in revenue, and maintaining a 98% client retention rate. Our IT solutions are second to none.",
                 },
                 {
                   title: "Transparent Process",
-                  desc: "Weekly updates, clear roadmaps, and monthly performance dashboards so you always know where things stand.",
+                  desc: "We provide weekly updates, clear roadmaps, and monthly performance dashboards, so you always know where your project stands. Our transparency is a cornerstone of our service.",
                 },
                 {
-                  title: "Complete Solution",
-                  desc: "One integrated partner for everything—strategy, websites, Instagram, ads, content, videos, design, campaigns.",
+                  title: "Complete and Integrated Solution",
+                  desc: "We are your one-stop IT solution firm. We provide an integrated partnership for everything from strategy and websites to Instagram, ads, content, videos, design, and campaigns.",
                 },
               ].map((item, idx) => (
                 <div key={idx} className="flex gap-4">
@@ -158,28 +166,28 @@ export default function ContactPage() {
           <div className="space-y-8">
             {[
               {
-                q: "What is your typical project timeline?",
-                a: "Most projects range from 1-2 months depending on scope. Initial strategy phases typically take 2-4 weeks, with execution and optimization following.",
+                q: "What is the typical project timeline for your agency?",
+                a: "Most of our digital marketing and IT solution projects range from 1-2 months, depending on the scope. The initial strategy phase typically takes 2-4 weeks, followed by execution and optimization.",
               },
               {
-                q: "Do you work with startups or only established companies?",
-                a: "We work with ambitious brands at any stage. What matters is commitment to growth.",
+                q: "Does your IT firm work with startups or only established companies?",
+                a: "We work with ambitious brands at any stage of their growth. What matters most to us is a commitment to growth and a desire to succeed. We are a flexible service provider.",
               },
               {
-                q: "How do you measure success?",
-                a: "We establish clear KPIs at the start of every project. We track metrics that matter to your business: revenue, conversions, brand awareness, customer acquisition cost, etc.",
+                q: "How does your agency measure success?",
+                a: "We establish clear KPIs at the beginning of every project. We track the metrics that matter most to your business, such as revenue, conversions, brand awareness, and customer acquisition cost. Our success is tied to your success.",
               },
               {
-                q: "Can you work with my existing internal team?",
-                a: "Absolutely. We work best as an extension of your team. We collaborate closely with internal marketing, design, and product teams.",
+                q: "Can your IT solution firm work with my existing internal team?",
+                a: "Absolutely. We work best as an extension of your team. We collaborate closely with your internal marketing, design, and product teams to ensure a seamless workflow and the best possible results.",
               },
               {
-                q: "What industries do you specialize in?",
-                a: "We've worked across SaaS, e-commerce, professional services, fintech, and more. Our expertise transfers because we focus on fundamentals: strategy, positioning, and growth systems.",
+                q: "What industries does your digital marketing agency specialize in?",
+                a: "We have experience working with clients in a wide range of industries, including SaaS, e-commerce, professional services, fintech, and more. Our expertise is transferable because we focus on the fundamentals: strategy, positioning, and growth systems.",
               },
               {
-                q: "Do you offer retainer or ongoing support?",
-                a: "Yes. Many clients transition to ongoing retainers for continuous optimization, new initiative development, and market expansion.",
+                q: "Do you offer retainer or ongoing support as a service provider?",
+                a: "Yes, we do. Many of our clients transition to ongoing retainers for continuous optimization, new initiative development, and market expansion. We are here to support you for the long term.",
               },
             ].map((item, index) => (
               <FadeInSection key={index} delay={index * 0.05}>
