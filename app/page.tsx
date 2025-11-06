@@ -282,7 +282,7 @@ export default function Home() {
               {
                 title: "Proven Track Record",
                 description:
-                  "50+ brands transformed. $20M+ in revenue generated. 4.9★ rating from clients. These aren't promises—they're proof.",
+                  "10+ brands transformed. $7M+ in revenue generated. 4.3★ rating from clients. These aren't promises—they're proof.",
               },
               {
                 title: "Obsessive Execution",
